@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding:0;
+    background: url('../img/雨.jpg') no-repeat;
+    background-size: 1586px;
+
+}
+#ca{font-size: 60px}
+.cit{
+    position: absolute;
+    top:60%;
+}
+@media screen and (max-height:500px) {
+    .cit{
+        background: #00b3ee;
+        position: absolute;
+        top:50%;
+    }
+}
+@media screen and (min-width:100px) and (max-width:500px) {
+    #ct{
+        font-size:100px;
+    }
+}
+.sp{padding-left:20px}
+.wu{
+
+    width:250px;
+    height: 80px;
+    font-size:50px;
+    padding:0px;
+    background-color: transparent;border:none;
+    transition:background 1s,padding 1s;
+}
+.wu:focus{
+    background:#eee;
+    padding:10px;
+}
+#img{
+    width:50px;
+    height:50px;
+}
